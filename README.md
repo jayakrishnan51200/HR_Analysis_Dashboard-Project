@@ -75,10 +75,6 @@ The dashboard shows a satisfaction matrix (rated 1–4) across all job roles:
 
 ## 👤 Author
 
-**Jayakrishnan**
+**JAYAKRISHNAN K**
 
 ---
-
-## 📄 License
-
-Open-source under the [MIT License](LICENSE).
