@@ -2,79 +2,120 @@
 
 ![HR Analysis Dashboard](HR_Analysis_Dashboard.png)
 
----
+## 📌 Project Overview
 
-## 📊 Dashboard Overview
-
-This **HR Analysis Dashboard** was built in **Power BI** to analyze employee attrition across departments, salary bands, age groups, job roles, and work tenure. The dashboard provides a 360° view of workforce health using data from **1,470 employees**.
+This project presents a comprehensive **HR Analysis Dashboard** built to analyze employee attrition patterns within an organization. Using a dataset of **1,470 employees**, the dashboard uncovers key factors driving attrition and provides actionable insights to help HR teams improve employee retention and workforce planning.
 
 ---
 
-## 🔢 Key KPIs
+## 🎯 Business Objectives
+
+1. **Identify the overall attrition rate** across the organization
+2. **Understand which departments and job roles** face the highest attrition
+3. **Analyze attrition by age group, salary slab, and education field**
+4. **Examine the impact of job satisfaction** on employee attrition
+5. **Study how work tenure affects attrition** patterns
+
+---
+
+## 📊 Dashboard Highlights
 
 | Metric | Value |
 |---|---|
 | Total Employees | 1,470 |
 | Total Attrition | 237 |
 | Attrition Rate | 16.12% |
-| Average Age | 37 Years |
-| Average Monthly Salary | $6,503 |
-| Average Work Tenure | 7.01 Years |
+| Average Age | 37 years |
+| Average Salary | $6.5K/month |
+| Avg Work Tenure | 7.01 years |
 | Male Employees | 882 |
 | Female Employees | 588 |
 
 ---
 
-## 📌 Dashboard Sections & Insights
+## 📂 Dataset Description
 
-### 1️⃣ Attrition by Education Field
-- **Life Sciences** graduates account for the highest attrition at **38%**
-- Followed by **Medical (27%)**, **Marketing (15%)**, and **Technical Degree (14%)**
-- **Other** fields contribute only 5% of attrition
+- **Total Records:** 1,470 employees, 35 columns
+- **Source:** IBM HR Analytics Employee Attrition Dataset
 
-### 2️⃣ Attrition by Age Group
-- The **18–25** age group has the highest attrition count of **91 employees**
-- The **26–35** group follows with **69 employees** leaving
-- Attrition drops significantly after age 45, with only **8 exits** in the 55+ group
-- Younger employees are clearly the most at-risk segment
+### Key Features
 
-### 3️⃣ Attrition by Job Role (Title)
-- **Laboratory Technicians** lead attrition with **62 exits**
-- **Sales Executives** follow with **57 exits**
-- **Research Scientists** account for **47 exits**
-- **Managers** have the lowest attrition at just **5 exits**
-
-### 4️⃣ Attrition Based on Job Satisfaction
-The dashboard shows a satisfaction matrix (rated 1–4) across all job roles:
-- **Laboratory Technicians** show the highest total attrition (62) across all satisfaction levels
-- **Sales Executives** have 57 total exits — notably high even among moderately satisfied employees
-- **Research Directors** have the lowest attrition (2), suggesting better satisfaction and stability
-- Total attrition breakdown by satisfaction: Level 1 → 66, Level 2 → 46, Level 3 → 73, Level 4 → 52
-
-### 5️⃣ Attrition by Salary Slab
-- Employees earning **up to $5K/month** account for **163 out of 237 exits** — the dominant attrition group
-- The **$5K–$10K** band sees 49 exits
-- **$10K–$15K** sees only 20 exits
-- Employees earning **$15K+** are the most stable with just 5 exits
-- **Clear pattern: lower pay = higher attrition**
-
-### 6️⃣ Attrition Based on Work Tenure
-- Attrition is **highest in Year 1** with **59 employees** leaving — onboarding is a critical failure point
-- A noticeable dip occurs at Year 2–3, then rises again around **Year 5 (21 exits)**
-- Attrition stabilizes after Year 7, dropping to single digits
-- Employees who cross the 7-year mark are significantly more likely to stay
+| Feature | Description |
+|---|---|
+| `Age` | Age of the employee |
+| `Attrition` | Whether the employee left (Yes/No) |
+| `Department` | Department of the employee |
+| `EducationField` | Field of education |
+| `JobRole` | Job title/role |
+| `JobSatisfaction` | Satisfaction rating (1–4) |
+| `MonthlyIncome` | Monthly salary |
+| `OverTime` | Whether employee works overtime |
+| `YearsAtCompany` | Total years at the company |
+| `WorkLifeBalance` | Work-life balance rating (1–4) |
+| `BusinessTravel` | Frequency of business travel |
+| `PerformanceRating` | Performance rating |
+| `MaritalStatus` | Marital status of employee |
 
 ---
 
 ## 🛠️ Tools Used
 
-- **Power BI** — Dashboard & Visualizations
-- **Microsoft Excel** — Data Cleaning & Preparation
+- **Power BI** — Dashboard design and interactive visualizations
+- **Microsoft Excel / CSV** — Data storage and preprocessing
+
+---
+
+## 💡 Key Insights from the Dashboard
+
+**Attrition by Education Field**
+- Life Sciences graduates have the highest attrition at **38%**
+- Followed by Medical (27%), Marketing (15%), and Technical Degree (14%)
+
+**Attrition by Age Group**
+- The **18–25** age group has the highest attrition count (**91**)
+- Attrition decreases steadily with age, lowest in the **55+** group (8)
+
+**Attrition by Job Role**
+- **Laboratory Technicians** face the most attrition (62)
+- Followed by Sales Executives (57) and Research Scientists (47)
+
+**Attrition by Salary**
+- Employees earning **up to 5K/month** have the highest attrition (163)
+- Higher salary bands show significantly lower attrition
+
+**Attrition by Work Tenure**
+- Attrition peaks at **Year 1** (59 employees) — new hires are most at risk
+- A secondary spike occurs around **Year 5**
+
+**Attrition by Job Satisfaction**
+- Employees with **low satisfaction scores (1–2)** show the highest attrition
+- Research Scientists and Sales Executives are most affected
+
+---
+
+## ✅ Business Recommendations
+
+- **Improve onboarding programs** to reduce first-year attrition
+- **Review salary structures**, especially for employees earning below 5K
+- **Focus retention efforts** on Laboratory Technicians and Sales Executives
+- **Enhance job satisfaction initiatives** through career growth and recognition
+- **Reduce overtime dependency** as it is a key driver of burnout and attrition
+- **Target Life Sciences graduates** with better career development opportunities
+
+---
+
+## 📁 Project Structure
+
+```
+HR-Analysis-Dashboard/
+│
+├── HR_ANALYSIS_dataset.csv       # Raw employee dataset
+├── HR_Analysis_Dashboard.pbix    # Power BI dashboard file
+└── README.md                     # Project documentation
+```
 
 ---
 
 ## 👤 Author
 
 **JAYAKRISHNAN K**
-
----
