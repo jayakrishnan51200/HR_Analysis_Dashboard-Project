@@ -104,18 +104,6 @@ This project presents a comprehensive **HR Analysis Dashboard** built to analyze
 
 ---
 
-## 📁 Project Structure
-
-```
-HR-Analysis-Dashboard/
-│
-├── HR_ANALYSIS_dataset.csv       # Raw employee dataset
-├── HR_Analysis_Dashboard.pbix    # Power BI dashboard file
-└── README.md                     # Project documentation
-```
-
----
-
 ## 👤 Author
 
 **JAYAKRISHNAN K**
